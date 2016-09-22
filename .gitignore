@@ -1,0 +1,9 @@
+/dist
+/package
+/node_modules
+.DS_Store
+.idea/
+/src/bower_components
+/bower_components
+*~
+
