@@ -14,6 +14,7 @@ module.exports = function(req, res) {
   //   res.json(data);
   // });
 
+  
   User.findOne({email: 'email test'}).exec()
     .then(function(data) {
       res.json(data);
